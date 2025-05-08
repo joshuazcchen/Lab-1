@@ -8,11 +8,11 @@ class FizzBuzz {
         int k = 100;
         int i = 1;
         while (i < k) {
-            i = fizzbuzzing(i);
+            i = fizzbuzzinging(i);
         }
     }
 
-    private static int fizzbuzzing(int i) {
+    private static int fizzbuzzinging(int i) {
         if (i % 3 == 0 && i % 5 == 0) {
             System.out.println("Fizz Buzz");
         } else if (i % 3 == 0) {
